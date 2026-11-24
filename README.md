@@ -3,6 +3,7 @@
 **Course:** COMP 4980 — Game Development  
 **Institution:** Thompson Rivers University  
 **Student:** Moses Kpughur-Tule  
+**TRU ID:** T00721068  
 **Date:** November 2026
 
 ---
