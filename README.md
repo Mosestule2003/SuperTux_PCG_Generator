@@ -1,6 +1,6 @@
 # Obstacle Generation PCG Portfolio 2
 
-**Course:** COMP 4980 — Game Development  
+**Course:** COMP 4980 Current Topics In Computer Science 
 **Institution:** Thompson Rivers University  
 **Student:** Moses Kpughur-Tule  
 **TRU ID:** T00721068  
