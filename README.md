@@ -10,7 +10,7 @@
 
 ## Overview
 
-This is part of a group final project where my team is building a full Procedural Content Generation (PCG) system for the open-source platformer SuperTux. The project has three parts: obstacle generation (my part), background generation (Daniel), and music generation (Magdala). Each of us is submitting our own component separately for Portfolio 2. This folder is my individual submission — it's self-contained and everything runs directly from here.
+This is part of a group final project where my team is building a full Procedural Content Generation (PCG) system for the open-source platformer SuperTux. The project has three parts: obstacle generation (my part), background generation (Daniel), and music generation (Magdala). Each of us is submitting our own component separately for Portfolio 2. This folder is my individual submission it's self-contained and everything runs directly from here.
 
 The core of my component is a Genetic Algorithm (GA) built with the DEAP library that procedurally generates obstacle layouts for SuperTux levels. Instead of hand-designing platforms, gaps, and enemies, the algorithm evolves them automatically over 20 generations. I ran evaluations across 10 different random seeds to show that it works consistently.
 
@@ -19,7 +19,7 @@ The core of my component is a Genetic Algorithm (GA) built with the DEAP library
 ## What you need
 
 - Python 3.9 or higher (tested on 3.11)
-- SuperTux 0.6.3 — to play the generated levels (download from https://www.supertux.org/)
+- SuperTux 0.6.3 to play the generated levels (download from https://www.supertux.org/)
 
 ---
 
@@ -127,10 +127,10 @@ These are defined at the top of `code/obstacle_gen.py`:
 
 The fitness function in `obstacle_gen.py` scores each candidate layout on:
 
-- **Platforms** — isolated solid tiles the player can jump on
-- **Gaps** — air gaps between platforms (adds challenge)
-- **Enemies** — enemy tiles placed on platforms
-- **Wall penalty** — unbroken walls that make the level unpassable get a heavy deduction
+- **Platforms** isolated solid tiles the player can jump on
+- **Gaps** air gaps between platforms (adds challenge)
+- **Enemies** enemy tiles placed on platforms
+- **Wall penalty** unbroken walls that make the level unpassable get a heavy deduction
 
 A score around 40 is a well-structured, playable layout.
 
