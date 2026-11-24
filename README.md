@@ -1,4 +1,4 @@
-# Obstacle Generation — PCG Portfolio 2
+# Obstacle Generation PCG Portfolio 2
 
 **Course:** COMP 4980 — Game Development  
 **Institution:** Thompson Rivers University  
