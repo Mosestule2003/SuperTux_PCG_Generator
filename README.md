@@ -28,7 +28,7 @@ The core of my component is a Genetic Algorithm (GA) built with the DEAP library
 **1. Clone the repo**
 
 ```
-git clone <repo-url>
+git clone <[repo-url](https://github.com/Mosestule2003/SuperTux_PCG_Generator)>
 cd portfolio_2_submission
 ```
 
